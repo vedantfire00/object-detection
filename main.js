@@ -37,16 +37,9 @@ function draw()
           text(object[i].label + " " + percent + "%", object[i].x+15, object[i].y+15);
           noFill();
           stroke(r,g,b);
-         rect(object[i].x, object[i].y, object[i].width, object[i].height)
+          rect(object[i].x, object[i].y, object[i].width, object[i].height)
          }
-         if(object[i].label == "person")
-         {
-          document.getElementById("number_of_Object").innerHTML = "baby found";
-         }
-         else
-         {
-          document.getElementById("number_of_Object").innerHTML = "baby found";
-         }
+
        }
 }
 
